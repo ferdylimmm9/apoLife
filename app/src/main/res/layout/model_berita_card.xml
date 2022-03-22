@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:background="@color/design_default_color_primary"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/ivBerita"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/ivBerita"
+            android:paddingVertical="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBerita"
+                android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"
+                android:lines="2"
+                android:maxLength="100"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/futura_heavy_font"
+                android:textSize="24sp"
+                android:textColor="@color/design_default_color_primary"
+                android:layout_toRightOf="@id/ivBerita"
+                />
+            <com.google.android.material.chip.Chip
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="covid-19"
+                android:textAlignment="center"
+                android:ellipsize="end"
+                android:maxLength="10"
+                android:lines="1"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:textColor="@color/white"
+                android:fontFamily="@font/futura_heavy_font"
+                android:layout_below="@id/ivBerita"
+                android:enabled="false"
+                android:id="@+id/chipBerita"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

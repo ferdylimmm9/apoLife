@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ApoLife</string>
+    <string name="belanja_obatmu_tanpa_antri">Belanja obatmu tanpa antri</string>
+    <string name="apolife">ApoLife</string>
+    <string name="mulai">Mulai</string>
+    <string name="register">Register</string>
+    <string name="daftar">Daftar</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beranda">Beranda</string>
+    <string name="profil">Profil</string>
+    <string name="chat">Chat</string>
+    <string name="enzo">Enzo</string>
+    <string name="_168cm_69kg">168cm, 69kg</string>
+    <string name="riwayat_ntransaksi">Riwayat\nTransaksi</string>
+    <string name="berita">Berita</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="obat">Obat</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homeMenu"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="Beranda"
+        android:enabled="true"
+        app:cnb_iconColor="@color/design_default_color_primary"
+        />
+    <item android:id="@+id/profilMenu"
+        android:icon="@drawable/ic_outline_person_24"
+        android:title="Profil"
+        android:enabled="true"
+        app:cnb_iconColor="@color/design_default_color_primary"
+        />
+    <item android:id="@+id/chatMenu"
+        android:icon="@drawable/ic_outline_chat_24"
+        android:title="Chat"
+        android:enabled="true"
+        app:cnb_iconColor="@color/design_default_color_primary"
+        />
+</menu>
