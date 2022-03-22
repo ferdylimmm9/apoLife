@@ -11,18 +11,13 @@ import com.example.apolifee.R
 class profil : Fragment() {
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view =  inflater.inflate(R.layout.fragment_profil, container, false)
-        return view
+        return inflater.inflate(R.layout.fragment_profil2, container, false)
     }
+
 
 }
