@@ -28,6 +28,7 @@
         app:startIconDrawable="@drawable/ic_outline_email_24"
         app:errorEnabled="true"
         app:errorTextColor="@color/red"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -44,6 +45,8 @@
         app:passwordToggleEnabled="true"
         app:errorTextColor="@color/red"
         app:errorEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
         >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"

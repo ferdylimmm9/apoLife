@@ -10,12 +10,15 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.apolifee.R
 import com.example.apolifee.activity.bacaBerita
+import com.example.apolifee.activity.bacaObat
 import com.example.apolifee.data.classBerita
+import com.example.apolifee.data.classObat
+import java.text.NumberFormat
 
-class newBeritaListAdapter (private val listData:ArrayList<classBerita>) : RecyclerView.Adapter<newBeritaListAdapter.ViewHolder>() {
+class newObatListAdapter (private val listData:ArrayList<classObat>) : RecyclerView.Adapter<newObatListAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var ivBerita : ImageView = itemView.findViewById(R.id.ivBerita)
-        var tvJudul : TextView = itemView.findViewById(R.id.tvJudul)
+        var ivObat : ImageView = itemView.findViewById(R.id.ivBerita)
+        var tvObat : TextView = itemView.findViewById(R.id.tvJudul)
         var tvKeterangan : TextView = itemView.findViewById(R.id.tvKeterangan)
     }
 
@@ -27,13 +30,15 @@ class newBeritaListAdapter (private val listData:ArrayList<classBerita>) : Recyc
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val data = listData[position]
         Glide.with(holder.itemView.context)
-            .load(data.imageBerita)
-            .into(holder.ivBerita)
-        holder.tvJudul.setText(data.judulBerita)
-        holder.tvKeterangan.setText("${data.namaPenulis} | ${data.tanggal}")
+            .load(data.foto)
+            .into(holder.ivObat)
+        holder.tvObat.setText(data.kategori)
+        val numberFormat = NumberFormat.getCurrencyInstance()
+        numberFormat.setMaximumFractionDigits(0);
+        holder.tvKeterangan.setText("${data.kategori} | ${numberFormat.format(data.harga)}")
 
         holder.itemView.setOnClickListener {
-            val intent = Intent(it.context,bacaBerita::class.java)
+            val intent = Intent(it.context,bacaObat::class.java)
             intent.putExtra("data",data)
             it.context.startActivity(intent)
         }

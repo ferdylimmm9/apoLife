@@ -8,7 +8,6 @@
     <string name="nama_lengkap">Nama Lengkap</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="nomor_telepon">Nomor Telepon</string>
     <string name="login">Login</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -21,4 +20,21 @@
     <string name="berita">Berita</string>
     <string name="lainnya">Lainnya</string>
     <string name="obat">Obat</string>
+    <string name="dummy">dummy</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="alamat">Alamat</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="berat">Berat</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="kode_bpom">Kode BPOM</string>
+    <string name="nama_obat">Nama Obat</string>
+    <string name="bentuk_obat">Bentuk Obat</string>
+    <string name="kategori">Kategori</string>
+    <string name="dikonsumsi_oleh">Dikonsumsi oleh</string>
+    <string name="golongan">Golongan</string>
+    <string name="dosis">Dosis</string>
+    <string name="harga_obat">Harga Obat</string>
+    <string name="deskripsi_obat">Deskripsi Obat</string>
+    <string name="manfaat_obat">Manfaat Obat</string>
+    <string name="tanggal">tanggal</string>
 </resources>

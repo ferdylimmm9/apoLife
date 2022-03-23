@@ -6,12 +6,21 @@
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/drawable-v24/circle.xml" value="0.3828125" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/font/font.xml" value="0.396875" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/activity_baca_berita.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/activity_baca_obat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/activity_list_berita.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/activity_list_obat.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/activity_login.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/activity_register.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/fragment_beranda.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/fragment_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/fragment_profil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/fragment_profil2.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/model_berita_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/model_berita_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/model_chat_list.xml" value="0.33" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/model_obat_card.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/layout/model_obat_list.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Ferdy Lim/Desktop/ApoLifee/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
       </map>

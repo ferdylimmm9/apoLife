@@ -3,13 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:id="@+id/ivBerita"
-        android:scaleType="fitCenter"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivPhoto"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_vertical"
         />
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -19,21 +20,30 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvJudul"
+            android:id="@+id/tvNama"
             android:text="lorem"
-            android:lines="3"
-            android:layout_marginVertical="16dp"
+            android:lines="1"
             android:fontFamily="@font/futura_heavy_font"
             android:textSize="16sp"
             android:textColor="@color/design_default_color_primary"
             />
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tvKeterangan"
+            android:id="@+id/tvPesan"
             android:text="@string/berita"
+            android:maxLength="100"
             android:fontFamily="@font/futura_heavy_font"
             android:textColor="@color/black"
+            android:layout_below="@id/tvNama"
+            android:ellipsize="end"
             />
-    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/tanggal"
+            android:id="@+id/tvWaktu"
+            />
+    </RelativeLayout>
 </LinearLayout>

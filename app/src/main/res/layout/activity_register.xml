@@ -26,6 +26,8 @@
         app:errorEnabled="true"
         app:errorTextColor="@color/red"
         app:startIconDrawable="@drawable/ic_outline_person_24"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
         android:hint="@string/nama_lengkap">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/namaInput"
@@ -40,6 +42,7 @@
         app:errorEnabled="true"
         app:errorTextColor="@color/red"
         app:startIconDrawable="@drawable/ic_outline_email_24"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="@string/email">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailInput"
@@ -52,6 +55,7 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/ic_outline_lock_24"
         app:errorEnabled="true"
@@ -70,6 +74,8 @@
         android:layout_height="wrap_content"
         app:errorEnabled="true"
         app:errorTextColor="@color/red"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
         app:startIconDrawable="@drawable/ic_outline_local_phone_24"
         android:hint="@string/nomor_telepon">
         <com.google.android.material.textfield.TextInputEditText

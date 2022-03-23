@@ -19,6 +19,5 @@ class splashScreen : AppCompatActivity() {
         btnMulai.setOnClickListener {
             startActivity(intent)
         }
-        Handler().postDelayed({startActivity(intent)}, 3000) //Thread
     }
 }

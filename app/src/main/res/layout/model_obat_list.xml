@@ -6,7 +6,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/ivBerita"
+        android:id="@+id/ivObat"
         android:scaleType="fitCenter"
         />
     <LinearLayout
@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvJudul"
+            android:id="@+id/tvObat"
             android:text="lorem"
             android:lines="3"
             android:layout_marginVertical="16dp"
@@ -30,16 +30,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvKeterangan"
+            android:id="@+id/tvKategori"
             android:text="@string/berita"
             android:fontFamily="@font/futura_heavy_font"
             android:textColor="@color/black"
             />
     </LinearLayout>
-    <com.google.android.material.divider.MaterialDivider
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:dividerInsetEnd="16dp"
-        app:dividerInsetStart="16dp"
-        />
 </LinearLayout>

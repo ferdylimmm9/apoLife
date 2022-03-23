@@ -40,7 +40,6 @@ class register : AppCompatActivity() {
         password = findViewById(R.id.password)
         noTelepon = findViewById(R.id.noTelepon)
 
-        val intent = Intent(this, MainActivity::class.java)
 
         btnDaftar.setOnClickListener {
             if(validasi())
